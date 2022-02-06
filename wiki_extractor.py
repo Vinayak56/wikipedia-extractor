@@ -1,8 +1,11 @@
+# Importing Modules
 import wikipedia
 from scrapy import Selector
 import requests
 import html2text
 import json
+
+# wiki class will extract all related wikipedia pages provided the keyword and also extract perform extraction of paragraph content
 class wiki:
     def __init__(self,keyword,num_urls,output):
         self.__keyword = keyword
