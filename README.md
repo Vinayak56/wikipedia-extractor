@@ -3,12 +3,16 @@ To performs a Wikipedia search using the provided keyword, and returns urls of r
 
 ## Requirement modules:-
 pip install wikipedia
+
 pip install scrapy
+
 pip install requests
+
 pip install html2text
+
 pip install json
 
 ## Then open Terminal and move in the directory where wiki_extractor.py file is located
 
 ## Then Execute:-
-python app.py
+wiki_extractor.py
